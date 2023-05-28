@@ -32,4 +32,16 @@ public class Geometria {
   public void setLado(int lado) {
         this.lado=lado;
   }
+   public int getLado2() {
+        return this.lado2;
+  }
+  public void setLado2(double lado2) {
+        this.lado=lado2;
+  }
+  public int getRadio() {
+        return this.radio;
+  }
+  public void setRadio(double radio) {
+        this.radio=radio;
+  }
 }

@@ -22,5 +22,14 @@ public class Geometria {
     this.largo=largo;
     this.ancho=ancho;
     this.alto=alto;
+  }//fin metodo constructor
+  /*Metodos Getters & Setters
+   *
+   */
+  public int getLado() {
+        return this.lado;
+  }
+  public void setLado(int lado) {
+        this.lado=lado;
   }
 }

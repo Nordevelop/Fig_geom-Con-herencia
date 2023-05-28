@@ -7,6 +7,9 @@ public class Geometria {
   protected double altura;
   protected double cateto1;
   protected double cateto2;
+  protected int largo;
+  protected int ancho;
+  protected int largo;
   
   
   public Geometria{//metodo Constructor

@@ -32,16 +32,29 @@ public class Geometria {
   public void setLado(int lado) {
         this.lado=lado;
   }
-   public int getLado2() {
+   public double getLado2() {
         return this.lado2;
   }
   public void setLado2(double lado2) {
-        this.lado=lado2;
+        this.lado2=lado2;
   }
-  public int getRadio() {
+  public double getRadio() {
         return this.radio;
   }
   public void setRadio(double radio) {
         this.radio=radio;
   }
+  public double getAltura(){
+        return this.altura;
+  }
+  public void setAltura(double Altura){
+        this.altura=altura;
+  }
+  public double getCateto1(){
+    return this.cateto1;
+  }
+  public void setCateto1(double cateto1){
+    this.cateto1=cateto1;
+  }
+  
 }

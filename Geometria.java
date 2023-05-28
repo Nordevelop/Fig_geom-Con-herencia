@@ -56,5 +56,46 @@ public class Geometria {
   public void setCateto1(double cateto1){
     this.cateto1=cateto1;
   }
+    public double getCateto2(){
+    return this.cateto2;
+  }
+  public void setCateto2(double cateto2){
+    this.cateto2=cateto2;
+  }
+   public int getLargo() {
+        return this.largo;
+  }
+  public void setLargo(int largo) {
+        this.largo=largo;
+  }
+   public int getAncho() {
+        return this.ancho;
+  }
+  public void setAncho(int ancho) {
+        this.ancho=ancho;
+  }
+   public int getAlto() {
+        return this.alto;
+  }
+  public void setAlto(int alto) {
+        this.alto=alto;
+  }
+   @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Geometria{lado=").append(lado);
+        sb.append(", lado2=").append(lado2);
+        sb.append(", radio=").append(radio);
+        sb.append(", altura").append(altura);
+        sb.append(", edad=").append(edad);
+        sb.append(", cateto1=").append(cateto1);
+        sb.append(", cateto2=").append(cateto2);
+        sb.append(", largo= ").append(largo);
+        sb.append(", ancho= ").append(ancho);
+        sb.append(", alto= ").append(alto);
+        sb.append(", ").append(super.toString());
+        sb.append('}');
+        return sb.toString();
+    }//fin metodo toString
   
-}
+}//fin clase Geometria

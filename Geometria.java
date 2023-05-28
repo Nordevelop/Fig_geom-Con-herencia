@@ -9,10 +9,10 @@ public class Geometria {
   protected double cateto2;
   protected int largo;
   protected int ancho;
-  protected int largo;
+  protected int alto;
   
   
-  public Geometria{//metodo Constructor
+  public Geometria(int lado, double lado2, double radio, double altura, double cateto1, double cateto2, largo, ancho, alto){//metodo Constructor
     
   }
 }
